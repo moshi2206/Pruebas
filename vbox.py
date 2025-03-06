@@ -3,7 +3,7 @@ import time
 import subprocess
 
 vm_name = [
-    "Servidor Principal V2 29/10/2019 (Stable)",
+    "Servidor Principal  V2 29/10/2019 (Stable)",
     "Sentinel"
 ]
 
