@@ -7,7 +7,7 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/local/bin/script_vbox.py</string>
+        <string>/usr/local/bin/vbox.py</string>
     </array>
 
     <key>RunAtLoad</key>
