@@ -1,9 +1,10 @@
-import os
 import time
 import subprocess
 
+
+"""Lista de las VM"""
 vm_name = [
-    "Servidor Principal  V2 29/10/2019 (Stable)",
+    "Servidor Principal",
     "Sentinel"
 ]
 
@@ -32,9 +33,10 @@ def stop_vm(vm_name):
 
 def daemon_loop():
     """Loop del daemon para monitorear y mantener la VM en ejecución."""
-    for a in vm_name:
-        try:
-            while True:
+    
+    try:
+        while True:
+            for a in vm_name:
                 start_vm(a)
                 time.sleep(60)  # Verifica cada 60 segundos
         except KeyboardInterrupt:
