@@ -1,0 +1,11 @@
+[Unit]
+Description=Daemon para iniciar una VM en VirtualBox
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/vbox.py
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
