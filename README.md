@@ -9,4 +9,4 @@ Script para generar backups de postgres.
 
 Cosas a tener en cuenta:
 * El usuario tiene que tener el permiso para ejecutar el archivo de script.
-* Para la autenticacion opte por la opcion "Peer Authentication" https://www.postgresql.org/docs/current/auth-peer.html.
+* Para la autenticación opté por la opción "Peer Authentication" https://www.postgresql.org/docs/current/auth-peer.html.
